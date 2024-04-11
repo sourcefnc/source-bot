@@ -1,0 +1,27 @@
+# Bỏ qua file .env chứa cấu hình môi trường
+.env
+
+# Bỏ qua thư mục node_modules và tất cả các tệp con bên trong
+node_modules/
+
+# Bỏ qua các tệp log được tạo ra bởi ứng dụng hoặc hệ thống
+logs/
+*.log
+
+# Bỏ qua thư mục build hoặc dist, nơi chứa các file được xây dựng hoặc biên dịch
+build/
+dist/
+
+# Bỏ qua các tệp metadata được tạo ra bởi hệ điều hành (macOS và Windows)
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các file tạm thời
+/tmp/
+/temp/
+
+# Bỏ qua thư mục cache của Node.js
+node_modules/.cache/
+
+# Bỏ qua thư mục báo cáo kiểm thử
+/coverage
